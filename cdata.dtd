@@ -1,0 +1,4 @@
+<!ENTITY % a "<![CDATA[">
+<!ENTITY % file SYSTEM "file:///etc/fstab">
+<!ENTITY % z "]]>">
+<!ENTITY data '%a;%file;%z;'>

@@ -1,0 +1,23 @@
+{% include "head.html" ignore missing %}
+
+<div class="panel-group">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        WAS THIS YOUR DATA?
+      </h4>
+    </div>
+    <div id="datainput" >
+      <div class="panel-body">
+        <form action="/update/" method=post>
+          <div class="form-group">
+            <pre>{{ xml }} </pre>
+	  </div>
+        </form>
+      </div>
+      <div class="panel-footer"></div>
+    </div>
+</div>
+
+
+{% include "foot.html" ignore missing %}
